@@ -1,49 +1,49 @@
 /* Color Palette */
 :root {
-    --primary-color: #26425a;
-    --secondary-color: #1e3548;
-    --accent-color: #3a5a78;
-    --light-color: #f0f4f8;
-    --dark-color: #1a2b3c;
-  }
-  
-  .collapse.navbar-collapse {
-    background-color: var(--primary-color);
-  }
-  
-  .navbar.navbar-expand-lg.bg-background-dark.navbar-dark {
-    background-color: var(--primary-color);
-  }
-  
-  .navbar {
-    background-color: var(--primary-color);
-  }
-  
-  .navbar a {
-    color: var(--light-color);
-  }
-  
-  .navbar a:hover {
-    color: var(--accent-color);
-  }
-  
-  .navbar-brand {
-    color: var(--light-color);
-  }
-  
-  .navbar-brand:hover {
-    color: var(--accent-color);
-  }
-  
-  .navbar-toggler {
-    border-color: var(--light-color);
-  }
-  
-  .navbar-toggler-icon {
-    background-color: var(--light-color);
-  }
-  
-  /* Specific style for the Home link */
-  .navbar a[href="index.html"] {
-    color: var(--light-color);
-  }
+  --primary-color: #3a5a78;
+  --secondary-color: #1e3548;
+  --accent-color: #3a5a78;
+  --light-color: #f0f4f8;
+  --dark-color: #1a2b3c;
+}
+
+.collapse.navbar-collapse {
+  background-color: var(--primary-color);
+}
+
+.navbar.navbar-expand-lg.bg-background-dark.navbar-dark {
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar a {
+  color: var(--light-color);
+}
+
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
+.navbar-brand {
+  color: var(--light-color);
+}
+
+.navbar-brand:hover {
+  color: var(--accent-color);
+}
+
+.navbar-toggler {
+  border-color: var(--light-color);
+}
+
+.navbar-toggler-icon {
+  background-color: var(--light-color);
+}
+
+/* Specific style for the Home link */
+.navbar a[href="index.html"] {
+  color: var(--light-color);
+}
